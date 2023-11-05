@@ -2,5 +2,6 @@ const btn = document.querySelector('.btn');
 
 btn.addEventListener('click', (e) => {
     e.preventDefault();
-    console.log(e);
+    document.querySelector('#my-form').style.background =
+        '#bbb';
 });
