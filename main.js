@@ -1,8 +1,6 @@
-/* ATTENTION: THIS IS CODE FROM THE YOUTUBE CRASH COURSE. IT IS NOT MEANT TO RUN, IT IS JUST FOR LEARNING PURPOSES 
+const btn = document.querySelector('.btn');
 
-Video by Brad Traversy
-JavaScript Crash Course For Beginners
-https://youtu.be/hdI2bqOjy3c?t=4228 
-
-Start at 1:10:29
- */
+btn.addEventListener('click', (e) => {
+    e.preventDefault();
+    console.log(e);
+});
